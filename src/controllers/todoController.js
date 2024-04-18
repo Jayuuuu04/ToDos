@@ -79,7 +79,7 @@ const update = async (req, res) => {
         data: [],
       });
     }
-
+    // console.log("Hello")
     const todos = await knex("todos").update(data).where("id", id);
 
     if (!todos) {
