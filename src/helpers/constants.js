@@ -1,3 +1,6 @@
-const PORT = 8080
+const PORT = 3001
 
-export default PORT
+const SUB_URI = '/api'
+
+export default 
+ {PORT, SUB_URI}
