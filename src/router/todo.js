@@ -8,4 +8,6 @@ router.put("/update" , todoController.updateTodo)
 
 router.delete('/delete', todoController.deleteTodo)
 
+router.get('/list', todoController.listTodo)
+
 export default router
